@@ -1,0 +1,1 @@
+gcc -o libmetal_amp_demo ipi_latency_demo.c ipi_shmem_demo.c ipi-uio.c libmetal_amp_demo.c shmem_atomic_demo.c shmem_demo.c shmem_latency_demo.c shmem_throughput_demo.c sys_init.c -lmetal
